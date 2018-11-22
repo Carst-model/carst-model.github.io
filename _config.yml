@@ -1,0 +1,9 @@
+# Site settings
+title: Carst
+email: "jon.hill@york.ac.uk"
+description: "Website of the Carst stratigraphic model"
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: "@jonxhill"
+github_username: jhill1
+# Build settings
+markdown: kramdown

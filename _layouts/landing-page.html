@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+	<body id="top">
+
+        {% include header.html %}
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2><img height="200px" src="images/logo_large.png" alt="" /></h2>
+                <p>Environmental Modelling Research Group.</p>
+                <p>Using the latest numerical technologies and data to solve environmental problems.</p>
+            </div>
+        </section>
+        {{ content }}
+        {% include footer.html %}
+
+    </body>
+
+</html>
